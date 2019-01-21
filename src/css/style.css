@@ -1,0 +1,340 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'roboto', sans-serif;
+  color: #999999; }
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  transition: all 300ms ease; }
+
+a:hover {
+  text-decoration: none; }
+
+a:focus {
+  text-decoration: none; }
+
+.nav-link-custom {
+  color: #4d4d4d;
+  padding: 0.5em 4em 0.5em 0em;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: .9em; }
+
+.nav-link-custom:hover {
+  text-decoration: none;
+  color: #999999; }
+
+.link-unstyled a {
+  text-decoration: none;
+  color: #4d4d4d; }
+
+.link-unstyled a:hover {
+  text-decoration: none;
+  color: #999999; }
+
+#sideBtn {
+  background-color: #000;
+  padding: 3px;
+  color: #fff;
+  position: fixed;
+  top: 50%;
+  right: -109px;
+  transition: 0.3s;
+  z-index: 10; }
+
+#sideBtn:hover {
+  right: 0px;
+  background-color: #bc6931; }
+
+#sideBtn a {
+  text-decoration: none;
+  color: #fff; }
+
+.side-btn-img {
+  height: 30px;
+  margin: 5px 10px; }
+
+.side-btn-text {
+  margin: 0 20px 0 10px; }
+
+.nav-bg {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.nav-logo-size {
+  height: 120px;
+  position: absolute;
+  top: -0; }
+
+footer {
+  background: black;
+  color: #999999; }
+
+footer h3 {
+  color: #f7f7f7;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+footer a {
+  color: #cccccc; }
+
+footer a:hover {
+  color: #999999;
+  text-decoration: none; }
+
+footer a:focus {
+  color: text-white;
+  text-decoration: none; }
+
+.title-white {
+  color: white; }
+
+.footer-logo-size {
+  height: 1.8em; }
+
+.custom-bullet li::before {
+  content: '\02237';
+  padding-right: 1.1225em;
+  position: relative;
+  top: -0.1em;
+  color: white; }
+
+.rrss-icon {
+  text-align: center;
+  background: #999999;
+  color: black;
+  padding: .3em;
+  font-size: .9em; }
+
+.footer-social {
+  font-weight: 400;
+  font-size: 1.5em; }
+
+.legal {
+  font-size: .7em;
+  font-weight: 300; }
+
+@media screen and (max-width: 768px) {
+  .hide-xs {
+    display: none; } }
+
+.jumbo-logo {
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.vcenter {
+  position: absolute;
+  width: 100%;
+  top: 20vh; }
+
+#jumbo {
+  width: 100%;
+  height: 100vh !important;
+  background: url("../img/jumbo-img.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  vertical-align: middle;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: -60px; }
+  @media screen and (max-width: 768px) {
+    #jumbo {
+      height: 110vh !important; } }
+
+.traslucido {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh; }
+  @media screen and (max-width: 768px) {
+    .traslucido {
+      height: 110vh !important;
+      margin-top: -10%; } }
+
+.align-items-center {
+  margin-left: auto;
+  margin-right: auto; }
+
+.line-high {
+  line-height: 2.3em; }
+
+.montse {
+  font-family: 'Montserrat', sans-serif; }
+
+.square {
+  padding-bottom: 100%;
+  position: relative; }
+
+.project-box-title {
+  color: #4d4d4d;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1em; }
+
+.project-box {
+  border: 1px solid #cccccc;
+  margin-bottom: 30px;
+  padding: 20px;
+  max-height: 500px;
+  position: relative; }
+
+.feature-box {
+  padding: 35px 40px 35px 40px;
+  text-align: center; }
+
+.feature-box-icon {
+  font-size: 5.5em;
+  margin: auto;
+  margin-bottom: 10px; }
+
+.feature-box-title {
+  color: #4d4d4d;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  margin: 20px 30px 20px 30px; }
+
+.section-heading-line {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background: #bc6931;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.section-heading-line-left {
+  content: '';
+  display: block;
+  width: 108px;
+  height: 2px;
+  background: #bc6931;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.project-heading-line {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 2px;
+  background: #bc6931;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.section-h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 1.3em;
+  color: black;
+  font-weight: bold; }
+
+.section-h3 {
+  font-family: 'Montserrat';
+  font-size: .9em;
+  color: #999999;
+  font-weight: 500; }
+
+.bottom-shadow {
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.04); }
+
+.bt-line {
+  border-bottom: 1px solid #bc6931; }
+
+#entrante1 {
+  background: url("../img/study.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#entrante2 {
+  background: url("../img/study.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#entrante3 {
+  background: url("../img/study.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal1 {
+  background: url("../img/collect.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal2 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal3 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal4 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal5 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#principal6 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#postre1 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#postre2 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+#postre3 {
+  background: url("../img/monitoring.jpg");
+  background-size: cover;
+  background-repeat: none;
+  background-position: center; }
+
+.custom-form {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  font-size: 1rem;
+  color: #4d4d4d;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1 solid #999999;
+  border-radius: 0; }

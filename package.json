@@ -1,0 +1,19 @@
+{
+  "name": "embalados",
+  "version": "1.0.0",
+  "description": "Sitio web para restaurant Embalados",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garciaporto/embalados.git"
+  },
+  "author": "Marcos García",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garciaporto/embalados/issues"
+  },
+  "homepage": "https://github.com/garciaporto/embalados#readme"
+}

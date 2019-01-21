@@ -1,0 +1,9 @@
+{
+    "lang": "es",
+    "title": "Embalados",
+    "description": "Descripción del site",
+    "mobileColor": "#000000",
+    "favicon": "./img/favicon.ico",
+    "logoPNG": "./img/logo.png",
+    "logoSVG": "./img/logo.svg"
+}
