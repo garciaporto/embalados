@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Embalados - Placer envuelto</title>
+    <meta name="description" content="Descripción del site">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="320">
+    <meta name="application-name" content="null">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="./img/logo.svg">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link rel="apple-touch-startup-image" href="./img/logo.svg">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="apple-touch-icon" href="./img/logo.svg">
+    <link rel="author" type="text/plain" href="./humans.txt">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href=".sitemap.xml"><!-- build:css css/style.min.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Playfair+Display:400i,700i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"><!-- endbuild -->
+  </head>
+</html>
+<body data-spy="scroll" data-target="#navbarMenu">
+  <nav class="navbar navbar-expand-md fixed-top nav-bg bottom-shadow">
+    <div class="container"><a class="navbar-brand" href="index.html"><img class="nav-logo-size logo-square hide-xs" src="./img/logo-embalados.svg" alt="Embalados"><img class="logo-xs show-xs" src="./img/logo-embalados-xs.svg" alt="Embalados"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Navigation"><i class="fa fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ml-auto text-uppercase">
+          <li>
+            <div class="menu-divider"></div><a class="nav-link-custom" href="restaurante.html">Restaurante</a>
+          </li>
+          <li><a class="nav-link-custom" href="index.html#carta">Carta</a></li>
+          <li><a class="nav-link-custom hide-sm" href="#" data-toggle="modal" data-target="#modalReservas">Reservas</a></li>
+          <li class="dropdown"><a class="nav-link-custom std-color" id="deliveryMenu" data-toggle="dropdown" aria-expanded="false">Delivery</a>
+            <ul class="dropdown-menu bottom-shadow" role="menu" aria-labelledby="deliveryMenu">
+              <li role="presentation"><a class="nav-link-custom drop-item" role="menuitem" tabindex="-1" href="https://deliveroo.es/es/menu/madrid/universidad/embalados?utm_source=google&amp;utm_medium=cpc&amp;utm_term=%2Bembalados&amp;utm_campaign=**Acquisition%5ESearch%5ERestaurant%5ESpain%5EMadrid%5EMCCM%5E%5E%5EEmbalados%5E~95711~%5EUniversidad%5E%5E%5E%C2%A371700000046530679&amp;utm_loc=9061046&amp;utm_device=c&amp;utm_adposition=1t1&amp;utm_network=g&amp;utm_targetid=kwd-557003203415&amp;gclid=CjwKCAiA1ZDiBRAXEiwAIWyNC9YK4275YOdP5vT01tKslz_fvlhrQNX_kblHA34NF9IE1VP1GEe9dxoCm8kQAvD_BwE&amp;gclsrc=aw.ds">Deliveroo</a></li>
+              <li role="presentation"><a class="nav-link-custom drop-item" role="menuitem" tabindex="-1" href="https://www.ubereats.com/es-ES/madrid/food-delivery/embalados/FJHlNWrJQHaSFX-k-DLy5g/">Uber Eats</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link-custom" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="jumbotron p-0 rounded-0" id="jumbocont">
+    <div class="container h-100">
+      <div class="jumbo-container">
+        <div class="jumbo-content">
+          <h1 class="text-uppercase montse white text-shadow strong">Contacto</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="sideBtn"><span><img class="side-btn-img" src="./img/book-icon.svg" alt=""></span><a class="text-uppercase side-btn-text" href="#" data-toggle="modal" data-target="#modalReservas">Reservar</a></div>
+  <div class="modal fade" id="modalReservas" tabindex="-1" role="dialog" aria-labelledby="Reservas" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header montse">
+          <h5 class="modal-title" id="modalReservas">Hacer una reserva</h5>
+          <button class="close" type="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body montse">
+          <div class="text-center">
+            <iframe class="booking" src="https://module.lafourchette.com/es_ES/module/420009-6bf70"></iframe>
+          </div>
+        </div>
+        <div class="modal-footer montse">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalReservas" tabindex="-1" role="dialog" aria-labelledby="reservas" area-hidden>
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalReservas">Reservar</h5>
+          <button class="close" type="close" data-dismiss="modal" aria-label="Cerrar"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>...</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <section class="row">
+      <div class="col text-center my-5">
+        <div class="section-heading-line"></div>
+        <h3 class="section-title my-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, deleniti?</h3>
+        <div class="section-heading-line"></div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col">
+        <form class="montse" action="send_form_email.php" method="post">
+          <div class="form-row">
+            <div class="col-sm">
+              <input class="form-control rounded-0" type="text" name="name" placeholder="Nombre">
+            </div>
+            <div class="col-sm">
+              <input class="form-control rounded-0" type="text" name="lastname" placeholder="Apellido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input class="form-control rounded-0" type="email" name="email" placeholder="e-mail">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input class="form-control rounded-0" type="text" name="subject" placeholder="Asunto">
+            </div>
+          </div>
+          <div class="row">
+            <textarea class="form-control rounded-0" name="message" cols="30" rows="10" placeholer="Mensaje"></textarea>
+          </div>
+          <div class="row">
+            <input class="form-control text-uppercase rounded-0 mt-3 mb-5 form-btn" type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
+    </section>
+  </div>
+  <section class="row">
+    <div class="col hide-xs my-5">
+      <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12149.141401851704!2d-3.651679999999978!3d40.42467995000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229ddba7320df%3A0xdb2f8b6221fc7d8b!2sEmbalados!5e0!3m2!1ses!2ses!4v1549497337086" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div class="col show-xs text-center mb-5"><a class="text-uppercase link-unstyled" href="https://goo.gl/maps/cnmhnSM8M8y"><span class="d-block"><img class="gmaps-icon" src="./img/gmaps-icon.svg" alt="GoogleMaps Icon"></span><span class="d-block mt-2">ven a visitarnos</span></a></div>
+  </section>
+  <footer class="container-fuid">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <div class="col text-center">
+              <div class="d-inline-block"><img class="logo-footer hide-xs" src="./img/logo-embalados-footer.svg" alt="Embalados"></div>
+              <div class="d-inline-block footer-info">
+                <ul class="list-unstyled text-uppercase">
+                  <li class="hide-xs text-left">lunes a domingo</li>
+                  <li class="hide-xs text-left">13:00 a 17:00</li>
+                  <li class="hide-xs text-left">20:00 a 00:00</li>
+                  <li class="hide-xs text-left"><a href="https://goo.gl/maps/cnmhnSM8M8y">calle costanilla de capuchinos, 3<br>local derecha - 28004 - madrid</a></li>
+                  <li class="show-xs">lunes a domingo 13:00 a 17:00 / 20:00 a 0:00</li>
+                  <li class="show-xs"><a href="https://goo.gl/maps/cnmhnSM8M8y">calle costanilla de capuchinos, 3<br>local derecha - 28004 - madrid</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center social-box"><span><a href="https://www.instagram.com/embalados.es/" target="blank"><img class="social-icon" src="./img/ig-icon.svg" alt="Instagram Embalados"></a></span><span><a href="https://www.tripadvisor.es/Restaurant_Review-g187514-d15060899-Reviews-Embalados-Madrid.html" target="blank"><img class="social-icon" src="./img/ta-icon.svg" alt="TripAdvisor Embalados"></a></span><span><a href="https://es-es.facebook.com/embalados.es/" target="blank"><img class="social-icon" src="./img/fb-icon.svg" alt="Facebook Embalados"></a></span></div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="legal-line"></div>
+          <p class="text-center legal">© 2019 Embalados. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer><!-- build:js js/scripts.min.js -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src=".js/script.js"></script>
+  <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+  <!--TripAdvisor-->
+  <script async src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=375&amp;locationId=15060899&amp;lang=es&amp;rating=true&amp;nreviews=1&amp;writereviewlink=false&amp;popIdx=false&amp;iswide=true&amp;border=false&amp;display_version=2" data-loadtrk onload="this.loadtrk=true"></script><!-- endbuild -->
+</body>
